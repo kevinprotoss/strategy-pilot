@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  strategy-pilot:
+    image: kevinprotoss/strategy-pilot
+    working_dir: /app
+    extra_hosts:
+      - "kafka:10.10.0.10"
+  redis:
+    image: redis:6.0.4-alpine
+
