@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@grpc/grpc-js": "^1.0.4",
+    "@grpc/grpc-js": "^1.1.8",
     "@grpc/proto-loader": "^0.5.4",
     "bull": "^3.14.0",
     "jupiterapis": "github:jupiterfund/jupiterapis",
